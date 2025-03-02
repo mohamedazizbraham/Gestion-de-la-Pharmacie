@@ -51,7 +51,7 @@ import SearchBar from "./SearchBar.vue";
 // Déclaration des variables réactives
 const medicaments = ref([]);
 const search = ref("");
-const apiUrl = "https://apipharmacie.pecatte.fr/api/20/medicaments";
+const apiUrl = "https://apipharmacie.pecatte.fr/api/8/medicaments";
 const defaultImage = "https://via.placeholder.com/80x50?text=No+Image";
 const photo = ref(null);
 const isPhotoChanged = ref(false);

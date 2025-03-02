@@ -42,7 +42,7 @@ const newMedicament = ref({
   qte: 1,
   photo: "",
 });
-const apiUrl = "https://apipharmacie.pecatte.fr/api/20/medicaments";
+const apiUrl = "https://apipharmacie.pecatte.fr/api/8/medicaments";
 
 // Fonction pour gérer le téléchargement de fichier
 const handleFileUpload = (event) => {

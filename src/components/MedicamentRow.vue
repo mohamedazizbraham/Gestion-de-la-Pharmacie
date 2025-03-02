@@ -60,7 +60,7 @@
 
   const updateQuantity = async (id, amount) => {
   try {
-    const response = await fetch(`https://apipharmacie.pecatte.fr/api/20/medicaments/${id}/updateQte`, {
+    const response = await fetch(`https://apipharmacie.pecatte.fr/api/8/medicaments/${id}/updateQte`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount }),
